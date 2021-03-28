@@ -1,0 +1,46 @@
+Java HotSpot(TM) 64-Bit Server VM (25.121-b13) for bsd-amd64 JRE (1.8.0_121-b13), built on Dec 12 2016 20:39:32 by "java_re" with gcc 4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.11.00)
+Memory: 4k page, physical 8388608k(539380k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:InitialHeapSize=536870912 -XX:MaxHeapSize=536870912 -XX:+PrintGC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseParallelGC 
+0.227: [GC (Allocation Failure) [PSYoungGen: 131471K->21503K(153088K)] 131471K->42157K(502784K), 0.0178371 secs] [Times: user=0.02 sys=0.04, real=0.02 secs] 
+0.268: [GC (Allocation Failure) [PSYoungGen: 153087K->21496K(153088K)] 173741K->84394K(502784K), 0.0262484 secs] [Times: user=0.03 sys=0.05, real=0.03 secs] 
+0.315: [GC (Allocation Failure) [PSYoungGen: 153080K->21496K(153088K)] 215978K->124647K(502784K), 0.0192578 secs] [Times: user=0.03 sys=0.03, real=0.02 secs] 
+0.360: [GC (Allocation Failure) [PSYoungGen: 153080K->21503K(153088K)] 256231K->164449K(502784K), 0.0235141 secs] [Times: user=0.03 sys=0.04, real=0.03 secs] 
+0.407: [GC (Allocation Failure) [PSYoungGen: 153087K->21494K(153088K)] 296033K->206807K(502784K), 0.0226451 secs] [Times: user=0.03 sys=0.03, real=0.02 secs] 
+0.453: [GC (Allocation Failure) [PSYoungGen: 153078K->21503K(80384K)] 338391K->250349K(430080K), 0.0213248 secs] [Times: user=0.03 sys=0.04, real=0.02 secs] 
+0.484: [GC (Allocation Failure) [PSYoungGen: 80383K->32794K(116736K)] 309229K->266543K(466432K), 0.0068888 secs] [Times: user=0.01 sys=0.01, real=0.00 secs] 
+0.500: [GC (Allocation Failure) [PSYoungGen: 91123K->42227K(116736K)] 324872K->282993K(466432K), 0.0081567 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+0.517: [GC (Allocation Failure) [PSYoungGen: 101053K->52515K(116736K)] 341819K->300246K(466432K), 0.0089694 secs] [Times: user=0.03 sys=0.01, real=0.01 secs] 
+0.536: [GC (Allocation Failure) [PSYoungGen: 111395K->36141K(116736K)] 359126K->315998K(466432K), 0.0163339 secs] [Times: user=0.02 sys=0.03, real=0.01 secs] 
+0.562: [GC (Allocation Failure) [PSYoungGen: 94987K->19228K(116736K)] 374844K->333097K(466432K), 0.0163921 secs] [Times: user=0.03 sys=0.03, real=0.02 secs] 
+0.579: [Full GC (Ergonomics) [PSYoungGen: 19228K->0K(116736K)] [ParOldGen: 313869K->232371K(349696K)] 333097K->232371K(466432K), [Metaspace: 2688K->2688K(1056768K)], 0.0381169 secs] [Times: user=0.08 sys=0.01, real=0.04 secs] 
+0.626: [GC (Allocation Failure) [PSYoungGen: 58880K->23546K(116736K)] 291251K->255918K(466432K), 0.0047088 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+0.648: [GC (Allocation Failure) [PSYoungGen: 82329K->20199K(116736K)] 314701K->275284K(466432K), 0.0059676 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+0.663: [GC (Allocation Failure) [PSYoungGen: 79016K->21204K(116736K)] 334101K->295647K(466432K), 0.0064126 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+0.679: [GC (Allocation Failure) [PSYoungGen: 79986K->21254K(116736K)] 354429K->315954K(466432K), 0.0061935 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+0.695: [GC (Allocation Failure) [PSYoungGen: 80134K->22112K(116736K)] 374834K->335759K(466432K), 0.0057924 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+0.701: [Full GC (Ergonomics) [PSYoungGen: 22112K->0K(116736K)] [ParOldGen: 313646K->271322K(349696K)] 335759K->271322K(466432K), [Metaspace: 2688K->2688K(1056768K)], 0.0350784 secs] [Times: user=0.09 sys=0.00, real=0.04 secs] 
+0.746: [GC (Allocation Failure) [PSYoungGen: 58880K->20905K(116736K)] 330202K->292228K(466432K), 0.0044997 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+0.761: [GC (Allocation Failure) [PSYoungGen: 79785K->20167K(116736K)] 351108K->311069K(466432K), 0.0058475 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+0.776: [GC (Allocation Failure) [PSYoungGen: 78372K->17565K(116736K)] 369274K->327570K(466432K), 0.0059433 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+0.782: [Full GC (Ergonomics) [PSYoungGen: 17565K->0K(116736K)] [ParOldGen: 310005K->289807K(349696K)] 327570K->289807K(466432K), [Metaspace: 2688K->2688K(1056768K)], 0.0344347 secs] [Times: user=0.10 sys=0.01, real=0.04 secs] 
+0.826: [GC (Allocation Failure) [PSYoungGen: 58848K->23787K(116736K)] 348655K->313594K(466432K), 0.0039746 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+0.840: [GC (Allocation Failure) [PSYoungGen: 82667K->25444K(116736K)] 372474K->338061K(466432K), 0.0068592 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+0.847: [Full GC (Ergonomics) [PSYoungGen: 25444K->0K(116736K)] [ParOldGen: 312617K->309974K(349696K)] 338061K->309974K(466432K), [Metaspace: 2688K->2688K(1056768K)], 0.0343309 secs] [Times: user=0.10 sys=0.00, real=0.03 secs] 
+0.892: [GC (Allocation Failure) [PSYoungGen: 58880K->20726K(116736K)] 368854K->330700K(466432K), 0.0052213 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+0.907: [GC (Allocation Failure) [PSYoungGen: 79593K->22530K(116736K)] 389568K->352857K(466432K), 0.0120864 secs] [Times: user=0.02 sys=0.01, real=0.01 secs] 
+0.919: [Full GC (Ergonomics) [PSYoungGen: 22530K->0K(116736K)] [ParOldGen: 330326K->322012K(349696K)] 352857K->322012K(466432K), [Metaspace: 2688K->2688K(1056768K)], 0.0376290 secs] [Times: user=0.11 sys=0.00, real=0.04 secs] 
+0.966: [Full GC (Ergonomics) [PSYoungGen: 58455K->0K(116736K)] [ParOldGen: 322012K->328400K(349696K)] 380467K->328400K(466432K), [Metaspace: 2688K->2688K(1056768K)], 0.0384811 secs] [Times: user=0.11 sys=0.01, real=0.04 secs] 
+1.016: [Full GC (Ergonomics) [PSYoungGen: 58731K->0K(116736K)] [ParOldGen: 328400K->331376K(349696K)] 387131K->331376K(466432K), [Metaspace: 2688K->2688K(1056768K)], 0.0385956 secs] [Times: user=0.11 sys=0.00, real=0.04 secs] 
+1.065: [Full GC (Ergonomics) [PSYoungGen: 58415K->0K(116736K)] [ParOldGen: 331376K->331591K(349696K)] 389792K->331591K(466432K), [Metaspace: 2688K->2688K(1056768K)], 0.0383720 secs] [Times: user=0.12 sys=0.00, real=0.04 secs] 
+Heap
+ PSYoungGen      total 116736K, used 18568K [0x00000007b5580000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 58880K, 31% used [0x00000007b5580000,0x00000007b67a22a0,0x00000007b8f00000)
+  from space 57856K, 0% used [0x00000007b8f00000,0x00000007b8f00000,0x00000007bc780000)
+  to   space 57856K, 0% used [0x00000007bc780000,0x00000007bc780000,0x00000007c0000000)
+ ParOldGen       total 349696K, used 331591K [0x00000007a0000000, 0x00000007b5580000, 0x00000007b5580000)
+  object space 349696K, 94% used [0x00000007a0000000,0x00000007b43d1c18,0x00000007b5580000)
+ Metaspace       used 2695K, capacity 4486K, committed 4864K, reserved 1056768K
+  class space    used 295K, capacity 386K, committed 512K, reserved 1048576K
